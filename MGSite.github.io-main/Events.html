@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mapua Gaming Society</title>
+</head>
+
+<body>
+
+    <!--Navigation Bar - Lim-->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="Logo.jpg" alt="Mapua Gaming Society Logo"> Mapua Gaming Society</a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="officers.html">Officers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="gallery_2.html">Gallery</a></li>
+            <li><a href="developer.html">Developers</a></li>
+        </ul>
+    </nav>
+
+    <!--This Script allows the Navigation Bar to collapse into a drop down menu when the webpage is scaled down - Lim-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            $(".toggle").on("click", function(){
+                if($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                } else{
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+            });
+        });
+
+    </script>
+
+    <!--Timeline code starts here-->
+    <center>
+
+        <div class="wrapper">
+
+            <ul class="timeline">
+
+            <li>
+                <details class="panel">
+                <summary>January 2024</summary>
+                <p> 𝐒𝐎𝐔𝐍𝐃 𝐓𝐇𝐄 𝐇𝐎𝐑𝐍𝐒!! 
+                    MGS unveiled their officers to the public, 
+                    to start of a new year!
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/officer reveal.jpg" usemap="#officer">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="officer">
+                        <area shape="rect" coords="0,0,2048,1365" href="about.html">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>December 2023</summary>
+                <p> A new Logo, more Merch, Membership Drive, 
+                    Staff Recruitment, and a Podcast Series.
+                    MGS ended the year 2023 with a number of events.
+                    <div class="timeline-img-container-square">
+                        <img src="timeline/new logo.jpg" usemap="#new">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="new">
+                        <area shape="rect" coords="0,0,2048,2048" href="gallery_2.html#1223">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>November 2023</summary>
+                <p> It was a big day on November 30, 2023 for the JBL Campus Mania Grand Finals! 
+                    A Live Lan tournament in Mapua University, Makati Branch.
+                    <div class="timeline-img-container-portrait-2">
+                        <img src="timeline/jbl finals.jpg" usemap="#jbl-finals">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="jbl-finals">
+                        <area shape="rect" coords="0,0,1080,1350" href="gallery_2.html#1123">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>October 2023</summary>
+                <p> MGS visits REV MAJOR 2023.
+                    In the same month, JBL Quantum Mania is making its way to Mapua University 
+                    to scout for the best Valorant players on campus! 
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/rev major.jpg" usemap="#rev-major">
+                    </div>
+                    <div class="timeline-img-container-square">
+                        <img src="timeline/jbl quantum.jpg" usemap="#jbl">
+                    </div>  
+                    <br>
+                    (click image for more info*)
+                    <map name="rev-major">
+                        <area shape="rect" coords="0,0,2048,1536" href="gallery_2.html#1023">
+                    </map>
+                    <map name="jbl">
+                        <area shape="rect" coords="0,0,1800,1800" href="gallery_2.html#1023">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>August 2023</summary>
+                <p> MGS opens tryouts for Competitive Players.
+                    Along with recruitment for officers & staff.
+                    <div class="portrait-side">
+                        <div class="timeline-img-container-square">
+                            <img src="timeline/tryouts open.jpg" usemap="#tryouts">
+                        </div>
+                        <div class="timeline-img-container-square">
+                            <img src="timeline/officers n staff.jpg" usemap="#officers-n-staff">
+                        </div>
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="tryouts">
+                        <area shape="rect" coords="0,0,2048,2048" href="gallery_2.html#823">
+                    </map>
+                    <map name="officers-n-staff">
+                        <area shape="rect" coords="0,0,1080,1080" href="gallery_2.html#823">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>July 2023</summary>
+                <p> MGS opens applications for Academic Year 2023-2024.
+                    <div class="timeline-img-container-portrait-2">
+                        <img src="timeline/membership drive 2023.jpg">
+                    </div>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>May 2023</summary>
+                <p> Mapúa University Week is nearing and MGS once again is back with another 
+                    exciting arcade booth and also a mini keyboard exhibit!
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/mgs booth.png">
+                    </div>
+                    <div class="timeline-img-container-portrait-2">
+                        <img src="timeline/keeb exhibit.jpg">
+                    </div>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>March 2023</summary>
+                <p> MGS reveals their candidates for the AcadArena Awards 2022!
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/acadarena awards 22.png" usemap="#acadarena-awards-two">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="acadarena-awards-two">
+                        <area shape="rect" coords="0,0,1920,1080" href="gallery_2.html#323">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>November 2022</summary>
+                <p> MGS HUB opens to the public starting on <br> November 7,2022!
+                    <div class="timeline-img-container-square">
+                        <img src="timeline/mgs hub.jpg">
+                    </div>
+                </p>
+                </details>
+            </li>
+
+             <li>
+                <details class="panel">
+                <summary>October 2022</summary>
+                <p> MGS attends the ESGS'22 at the SMX convention center as media!
+                    <div class="timeline-img-container-square">
+                        <img src="timeline/esgs 22.jpg" usemap="#esgs22">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="esgs22">
+                        <area shape="rect" coords="0,0,1080,1080" href="gallery_2.html#1022">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>August 2022</summary>
+                <p> Happy 5 years MGS!
+                    Another recruitment period has opened for the next 
+                    representative of MGS that can compete in the collegiate level.
+                    <div class="timeline-img-container-square">
+                        <img src="timeline/mgs 5th anniv.jpg">
+                    </div>
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/mgs recruiting 2022.png" usemap="#recruitment">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="recruitment">
+                        <area shape="rect" coords="0,0,1080,566" href="gallery_2.html#822">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>July 2022</summary>
+                <p> Mapúa Gaming Society attended CONQuest Festival on July 23-24, 2022 at SMX Manila.
+                    Alongside the release of MGS merch on July 20, 2022.
+                    <div class="portrait-side">
+                        <div class="timeline-img-container-square">
+                            <img src="timeline/conquest mgs.png" usemap="#conquest">
+                        </div>
+                        <div class="timeline-img-container-square">
+                            <img src="timeline/mgs merch.png">
+                        </div>
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="conquest">
+                        <area shape="rect" coords="0,0,1000,1000" href="gallery_2.html#722">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>May 2022</summary>
+                <p> Cardinal Cup is back with not just one but two games in the month of May!
+                    LOL Cardinal Cup was held on May 26, 2022 
+                    while MLBB Cardinal Cup was held on the following day May 27, 2022.
+                    <div class="portrait-side">
+                        <div class="timeline-img-container-portrait-2">
+                            <img src="timeline/cardinal cup ml.jpg">
+                        </div>
+                        <div class="timeline-img-container-portrait-2">
+                            <img src="timeline/cardinal cup lol.jpg">
+                        </div>
+                    </div>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>March 2022</summary>
+                <p> Valorant Cardinal Cup 2022 opens on March 13, 2022.
+                    Simultaneously, MGS membership applications re-open the following day.
+                    <div class="portrait-side">
+                        <div class="timeline-img-container-portrait-2">
+                            <img src="timeline/cardinal cup 2022.jpg">
+                        </div>
+                        <div class="timeline-img-container-portrait-2">
+                            <img src="timeline/mgs join now 2022.jpg">
+                        </div>
+                    </div>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>Febuary 2022</summary>
+                <p> Febuary 1, 2022 MGS reveals their candidates for
+                    AcadArena Awards 2021 candidate nomination.
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/acadarena awards.png" usemap="#acadarena-awards">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="acadarena-awards">
+                        <area shape="rect" coords="0,0,1920,1080" href="gallery_2.html#222">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>December 2021</summary>
+                <p> MGS announces their various Year Ender events for 2021!
+                    <div class="portrait-side">
+                        <div class="timeline-img-container-square">
+                            <img src="timeline/year ender 2021.jpg">
+                        </div>
+                        <div class="timeline-img-container-square">
+                            <img src="timeline/cardinal cup codm.jpg">
+                        </div>
+                    </div> 
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>November 2021 </summary>
+                <p> To celebrate Mapúa University SHS WEEK 2021 MGS invites Mapuan students to 
+                    TEAMFIGHT TACTICS INVITATIONALS on November 17, 2021.
+                    The next day, MGS invites players to join their
+                    Cardinal Cup Kick-Off Event, the MLBB 1v1 Roulette!
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/tactics invitationals.jpg">
+                    </div>
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/1v1 tourna.jpg">
+                    </div>
+                </p> 
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>October 2021</summary>
+                <p> October 3, 2021 MGS Lycans reign as a true predator at the MUSEO qualifier, 
+                    UNDEFEATED throughout the tournament! Also in the same month, 
+                    MGS presents their official team jersey on October 9, 2021.
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/mgs lycans win.png">
+                    </div>
+                    <div class="timeline-img-container-square">
+                        <img src="timeline/team jersey.jpg">
+                    </div>
+                </p> 
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>August 2021</summary>
+                <p> On August 11, 2021 MGS celebrates their 4th anniversary! 
+                    A few days later MGS E-sprts team recruitment has re-opened to all Mapuan students.
+                    <div class="timeline-img-container-square">
+                        <img src="timeline/4th anniv.png" usemap="#4th-anniv">
+                    </div>
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/esports recruitment.jpg" usemap="#esports-recruit">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="4th-anniv">
+                        <area shape="rect" coords="0,0,2048,2048" href="gallery_2.html#821">
+                    </map>
+                    <map name="esports-recruit">
+                        <area shape="rect" coords="0,0,2896,1448" href="gallery_2.html#821">
+                    </map>
+                </p> 
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>May 2021</summary>
+                <p> on May 15, 2021 MGS Gaia makes their debut in AcadArena UAC 2021!
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/mgs gaia 1.jpg">
+                    </div>
+                </p> 
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>February 2021</summary>
+                <p> MGS has planned a lot of events for the second half of the schoolyear 2020-2021.
+                    Different AcadArena tournaments and membership 
+                    registrations were done until the end of April 2021.
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/2nd half mgs 20-21.jpg" usemap="#2nd-half">
+                    </div>
+                    <br>
+                    (click image for more info*)
+                    <map name="2nd-half">
+                        <area shape="rect" coords="0,0,1920,1080" href="gallery_2.html#221">
+                    </map>
+                </p> 
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                    <summary>December 2020</summary>
+                    <p> MGS ends the year 2020 with fun-filled events.
+                        <div class="timeline-img-container-portrait">
+                            <img src="timeline/mgs year-ender 2020.jpg">
+                        </div>
+                    </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>October 2020</summary>
+                <p> MGS Spades joins in AcadArena's Univaersity Alliance Cup (UAC).
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/mgs spades uac.jpg">
+                    </div>
+                </p> 
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>August 2020</summary>
+                <p> August 23-29, 2020 MGS re-opens member registration to 
+                    recruit new members! Over more than 200+ applicants have sent
+                    their registration. Unfortunately, 
+                    only 100 applicants were only accepted.
+                    <div class="portrait-side">
+                        <div class="timeline-img-container-memdrive">
+                            <img src="timeline/member drive 1 2020.png" usemap="#mem-drive-1">
+                        </div>
+                        <div class="timeline-img-container-portrait">
+                            <img src="timeline/member drive 2 2020.png" usemap="#mem-drive-2">
+                        </div>
+                    </div>
+                    (click image for more info*)
+                    <map name="mem-drive-1">
+                        <area shape="rect" coords="0,0,2048,2048" href="gallery_2.html#820">
+                    </map>
+                    <map name="mem-drive-2">
+                        <area shape="rect" coords="0,0,1448,2048" href="gallery_2.html#820">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>October 2019</summary>
+                <p> MGS members went to Electronic Sports and Gaming Summit - 
+                    ESGS! on October 24 2019. 
+                </p>
+                <div class="timeline-img-container-square">
+                    <img src="timeline/esgs 2019.jpg" usemap="#esgs">
+                </div>
+                <br>
+                (click image for more info*)
+                <map name="esgs">
+                    <area shape="rect" coords="0,0,1752,1752" href="gallery_2.html#1019">
+                </map>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>September 2019</summary>
+                <p> On September 5 and 23-25, 2019 were the first MGS Tekken 7 
+                    and Mobile Legends Tournaments. 
+                    <div class="portrait-side">
+                        <div class="timeline-img-container-portrait">
+                            <img src="timeline/tekken 7 1.jpg" usemap="#tekken">
+                        </div>
+                        <div class="timeline-img-container-portrait">
+                            <img src="timeline/ml tourna 1.jpg">
+                        </div>
+                    </div>
+                    (click image for more info*)
+                    <map name="tekken">
+                        <area shape="rect" coords="0,0,678,960" href="gallery_2.html#919">
+                    </map>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>July 2019</summary>
+                <p> The first MGS General Assembly was held on July 9, 2019. 
+                    Where members, applicants and interested Mapuans were welcome to attend.
+                    <div class="timeline-img-container-rect">
+                        <img src="timeline/general assembly 1.jpg" >
+                    </div>
+                </p>
+                </details>
+            </li>
+
+            <li>
+                <details class="panel">
+                <summary>August 2017</summary>
+                <p> Mapúa Gaming Society was
+                    Founded on August 11, 2017. 
+                    Their facebook page was created on October 25, 2017.
+                    <div class="timeline-img-container-square">
+                        <img src="timeline/0 mgs-logo-1.jpg" >
+                    </div>
+                </p>
+                </details>
+            </li>
+
+            </ul>
+
+        </div>
+
+    </center>
+
+  <button class="back-to-top" onclick="scrollToTop()">Back to Top</button>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+
+    <!--Footer - Lim -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                    <div class="footer-col">
+                        <h4>Organization</h4>
+                        <ul class="footer-list">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="officers.html">Officers</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="Events.html">Events</a></li>
+                            <li><a href="gallery_2.html">Gallery</a></li>
+                            <li><a href="developer.html">Developers</a></li>
+                        </ul>
+                    </div>
+                <div class="footer-col">
+                    <h4>Officers</h4>
+                    <ul class="footer-list">
+                        <li><a href="officers.html">Ray Giron</a></li>
+                        <li><a href="officers.html">Ozel Pablo</a></li>
+                        <li><a href="officers.html">Aaron Valentona</a></li>
+                        <li><a href="officers.html">Vince Arellano</a></li>
+                        <li><a href="officers.html">Laurenz Maliwat</a></li>
+                        <li><a href="officers.html" style="color: white;">and More!!</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Developers</h4>
+                    <ul class="footer-list">
+                        <li><a href="developer.html">Alexis Manuel</a></li>
+                        <li><a href="developer.html">Andre Manguera</a></li>
+                        <li><a href="developer.html">JJ Botabara</a></li>
+                        <li><a href="developer.html">Kyle Lim</a></li>
+                        <li><a href="developer.html">Zidane Yu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social-links">
+                        <a href="#"><i class='bx bxl-facebook-circle' style='color:#54cedc'  ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' style='color:#54cedc' ></i></a>
+                        <a href="#"><i class='bx bxl-discord-alt' style='color:#54cedc' ></i></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

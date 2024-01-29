@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mapua Gaming Society</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar - Lim -->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="Logo.jpg" alt="Mapua Gaming Society Logo"> Mapua Gaming Society</a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="gallery_2.html">Gallery</a></li>
+            <li><a href="developer.html">Developers</a></li>
+        </ul>
+    </nav>
+
+    <!-- This Script allows the Navigation Bar to collapse into a drop-down menu when the webpage is scaled down - Lim -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            $(".toggle").on("click", function(){
+                if($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                } else{
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+            });
+        });
+    </script>
+
+   
+
+ 
+ <!-- About Us Content -->
+
+ <section>
+        <center> <img src="1st_Ito mauuna.png" class="team-image fade-in" alt="team-image"></center>
+
+
+
+        <center><h1 class="h1-description" alt="h1-description">Meet the Officers</h1></center>
+
+        <div class="officers-container">
+            <!-- Officer 1 -->
+            <div class="officer">
+                <img src="Officers/GRAY.png" alt="Officer 1">
+                <h3>Ray Daniel G. Giron</h3>
+                <p class="description">"Casanovagray"</p>
+                <p class="position">PRESIDENT</p>
+                <p class="description">Primordial Demon Lord</p>
+                <p class="description">Computer Engineering</p>
+                <p class="description">Intramuros Campus</p>
+
+            </div>            
+
+            <!-- Officer 2 -->
+            <div class="officer">
+                <img src="Officers/OZEL.png" alt="Officer 2">
+                <h3>Ozael Renfre S. Pablo</h3>
+                <p class="description">"Rix"</p>
+                <p class="position">INTERNAL VICE PRESIDENT (INTRAMUROS)</p>
+                <p class="description">Dark Overlord of the North</p>
+                <p class="description">Computer Engineering</p>
+                <p class="description">Intramuros Campus</p>
+
+            </div>
+
+            <div class="officer">
+                <img src="Officers/AARON.png" alt="Officer 1">
+                <h3>Aaron M. Valentona</h3>
+                <p class="description">"Sayon"</p>
+                <p class="position">INTERNAL VICE PRESIDENT (MAKATI)</p>
+                <p class="description">Dark Overlord of the South</p>
+                <p class="description">Information Technology</p>
+                <p class="description">Makati Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/VINCE.png" alt="Officer 2">
+                <h3>Vince Audric M. Arellano</h3>
+                <p class="description">"Audrince"</p>
+                <p class="position">External Vice President</p>
+                <p class="description">Voidreaper Overlord</p>
+                <p class="description">Electrical Engineering</p>
+                <p class="description">Intramuros Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/Laurenz.png" alt="Officer 2">
+                <h3>Laurenz Kyle A. Maliwat</h3>
+                <p class="description">"OvO"</p>
+                <p class="position">Secretary</p>
+                <p class="description">Scribe</p>
+                <p class="description">Computer Engineering</p>
+                <p class="description">Intramuros Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/Alexis.png" alt="Officer 1">
+                <h3>Alexis D. Dallarte</h3>
+                <p class="description">"Ardestine"</p>
+                <p class="position">Finance Head</p>
+                <p class="description">Demon of Greed</p>
+                <p class="description">Computer Engineering</p>
+                <p class="description">Intramuros Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/SEAN.png" alt="Officer 2">
+                <h3>Timothy Sean Mari M. Inocencio</h3>
+                <p class="description">"Cosmic Prime"</p>
+                <p class="position">Auditor</p>
+                <p class="description">Bookkeeper Inquisitor</p>
+                <p class="description">Business Administration</p>
+                <p class="description">Makati Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/DANIELLE BATTAD.png" alt="Officer 1">
+                <h3>Danielle Shane Consengco</h3>
+                <p class="description">"Saika Hideaki"</p>
+                <p class="position">Treasurer (Intramuros)</p>
+                <p class="description">North Gold Keeper</p>
+                <p class="description">Energy Engineering</p>
+                <p class="description">Intramuros Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/AEON.png" alt="Officer 2">
+                <h3>Aeon Faith D. Matuba</h3>
+                <p class="description">"Maddieon"</p>
+                <p class="position">C.O.O. Representative</p>
+                <p class="description">Officio Assassinorum</p>
+                <p class="description">Information Technology</p>
+                <p class="description">Makati Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/KEMP.png" alt="Officer 1">
+                <h3>Kemp Russel B. Laro</h3>
+                <p class="description">"Eksdi"</p>
+                <p class="position">Public Relations Officer</p>
+                <p class="description">Divine Emmisary</p>
+                <p class="description">Electronical Engineering</p>
+                <p class="description">Intramuros Campus</p>
+                
+            </div>
+
+            <div class="officer">
+                <img src="Officers/HEINZ.png" alt="Officer 2">
+                <h3>Heinz Peter M. Conde</h3>
+                <p class="description">"WPete"</p>
+                <p class="position">Logistics Director (Intramuros)</p>
+                <p class="description">Knight of the North</p>
+                <p class="description">Electrical Engineering</p>
+                <p class="description">Intramuros Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/SHARMAINE.png" alt="Officer 1">
+                <h3>Sharmaine Marie R. Caguioa</h3>
+                <p class="description">"Ube Keso"</p>
+                <p class="position">Logistics Director (Makati)</p>
+                <p class="description">Knight of the South</p>
+                <p class="description">Entertainment and Multimedia Computing</p>
+                <p class="description">Makati Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/EJ CABINIAN.png" alt="Officer 2">
+                <h3>Elijah James Cabinian</h3>
+                <p class="description">"Stringstheory"</p>
+                <p class="position">Community Director</p>
+                <p class="description">Lord of the Massses</p>
+                <p class="description">Multimedia Arts</p>
+                <p class="description">Makati Campus</p>
+
+            </div>
+
+            <div class="officer">
+                <img src="Officers/liam.png" alt="Officer 1">
+                <h3>Liam Andre D. Salvador</h3>
+                <p class="description">"Vera"</p>
+                <p class="position">Events Director</p>
+                <p class="description">Lord of Chaos</p>
+                <p class="description">Electrical Engineering</p>
+                <p class="description">Intramuros Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/reycel.png" alt="Officer 2">
+                <h3>Reycel Joy Espiritu Bodoso</h3>
+                <p class="description">"AdrenalineClutch"</p>
+                <p class="position">Marketing Director</p>
+                <p class="description">Master Tactician</p>
+                <p class="description">Psychology</p>
+                <p class="description">Makati Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/Pauline.png" alt="Officer 1">
+                <h3>Pauline Maureen L. Cañares</h3>
+                <p class="description">"Purren"</p>
+                <p class="position">Social Media Director</p>
+                <p class="description">Dank Master</p>
+                <p class="description">Architecture</p>
+                <p class="description">Intramuros Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/JM JM.png" alt="Officer 2">
+                <h3>John Mark Louie O. Zambrano</h3>
+                <p class="description">"Tee"</p>
+                <p class="position">Production Director</p>
+                <p class="description">Dank Summoner</p>
+                <p class="description">Mechanical Engineering</p>
+                <p class="description">Intramuros Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/Harris.png" alt="Officer 1">
+                <h3>Harris Carl F. Casinillo</h3>
+                <p class="description">"Geesus"</p>
+                <p class="position">Creative Director</p>
+                <p class="description">Dark Artisan</p>
+                <p class="description">Multimedia Arts</p>
+                <p class="description">Makati Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/Xine.png" alt="Officer 2">
+                <h3>Maxine Camil A. Urquico</h3>
+                <p class="description">"Keiji"</p>
+                <p class="position">Esports Director</p>
+                <p class="description">Demon General</p>
+                <p class="description">Information Technology</p>
+                <p class="description">Makati Campus</p>
+            </div>
+
+            <div class="officer">
+                <img src="Officers/DWAYNE.png" alt="Officer 1">
+                <h3>"Dwayne" Nisha Eldwyn Mari S. Peñas</h3>
+                <p class="description">"OyDwayne"</p>
+                <p class="position">Web3 Director</p>
+                <p class="description">Third Dimension Imp</p>
+                <p class="description">Information Technology</p>
+                <p class="description">Makati Campus</p>
+
+            </div>
+
+            <!-- Repeat the above structure for the remaining officers (Officer 3 to Officer 22) -->
+
+
+
+
+        </div>
+    </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-- Footer - Lim -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Organization</h4>
+                    <ul class="footer-list">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="officers.html">Officers</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="Events.html">Events</a></li>
+                        <li><a href="gallery_2.html">Gallery</a></li>
+                        <li><a href="developer.html">Developers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Officers</h4>
+                    <ul class="footer-list">
+                        <li><a href="officers.html">Ray Giron</a></li>
+                        <li><a href="officers.html">Ozel Pablo</a></li>
+                        <li><a href="officers.html">Aaron Valentona</a></li>
+                        <li><a href="officers.html">Vince Arellano</a></li>
+                        <li><a href="officers.html">Laurenz Maliwat</a></li>
+                        <li><a href="officers.html" style="color: white;">and More!!</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Developers</h4>
+                    <ul class="footer-list">
+                        <li><a href="developer.html">Alexis Manuel</a></li>
+                        <li><a href="developer.html">Andre Manguera</a></li>
+                        <li><a href="developer.html">JJ Botabara</a></li>
+                        <li><a href="developer.html">Kyle Lim</a></li>
+                        <li><a href="developer.html">Zidane Yu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social-links">
+                        <a href="https://www.facebook.com/mapuagamingsociety/" target="_blank"><i class='bx bxl-facebook-circle' style='color:#54cedc'></i></a>
+                        <a href="https://www.instagram.com/mapua.gs/" target="_blank"><i class='bx bxl-instagram' style='color:#54cedc' ></i></a>
+                        <a href="https://twitter.com/mapuags?lang=en" target="_blank"><i class='bx bxl-twitter' style='color:#00bcd4'  ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

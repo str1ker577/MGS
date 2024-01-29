@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="developer.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mapua Gaming Society</title>
+</head>
+
+<body>
+
+    <!--Navigation Bar - Lim-->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="Logo.jpg" alt="Mapua Gaming Society Logo"> Mapua Gaming Society</a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="officers.html">Officers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="gallery_2.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!--This Script allows the Navigation Bar to collapse into a drop down menu when the webpage is scaled down - Lim-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            $(".toggle").on("click", function(){
+                if($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                } else{
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+            });
+        });
+
+    </script>
+<br>
+<br>
+<br>
+
+<!-- Developers Section - Lim -->
+
+<section class="team">
+    <div class="team-center">
+        <h1>Our Development Team</h1>
+    </div>
+
+<div class="team-content">
+
+    <div class="team-box">
+        <img src="Developers/RV.jpg">
+        <h3>Alexis Manuel</h3>
+        <h5>About Us and Officers Developer</h5>
+    </div>
+
+    <div class="team-box">
+        <img src="Developers/Max.jpg">
+        <h3>Andre Manguera</h3>
+        <h5>Team Leader, Relationships Manager and Contact Page Developer</h5>
+    </div>
+
+    <div class="team-box">
+        <img src="Developers/JJ.jpg">
+        <h3>JJ Botabara</h3>
+        <h5>Home Page Developer and Image Map Designer</h5>
+    </div>
+
+    <div class="team-box">
+        <img src="Developers/kyle.png">
+        <h3>Kyle Lim</h3>
+        <h5>Operations Manger, Team Page Developer and Website Layout Designer</h5>
+    </div>
+
+    <div class="team-box">
+        <img src="Developers/zidane.jpg">
+        <h3>Zidane Yu</h3>
+        <h5>Gallery Page Compiler and Event Page Developer</h5>
+    </div>
+</div>
+
+</section>
+
+<!-- Easter Egg Page-->
+
+<div class="Easter-Egg-container">
+    <div class="Easter-Egg-wrapper">
+    <a href="easter_egg.html"><i class='bx bx-ghost' style='color:#54cedc'  ></i></a>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<!--Footer - Lim -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Organization</h4>
+                    <ul class="footer-list">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="officers.html">Officers</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="Events.html">Events</a></li>
+                        <li><a href="gallery_2.html">Gallery</a></li>
+                        <li><a href="developer.html">Developers</a></li>
+                    </ul>
+                </div>
+            <div class="footer-col">
+                <h4>Officers</h4>
+                <ul class="footer-list">
+                    <li><a href="officers.html">Ray Giron</a></li>
+                    <li><a href="officers.html">Ozel Pablo</a></li>
+                    <li><a href="officers.html">Aaron Valentona</a></li>
+                    <li><a href="officers.html">Vince Arellano</a></li>
+                    <li><a href="officers.html">Laurenz Maliwat</a></li>
+                    <li><a href="officers.html" style="color: white;">and More!!</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Developers</h4>
+                <ul class="footer-list">
+                    <li><a href="developer.html">Alexis Manuel</a></li>
+                    <li><a href="developer.html">Andre Manguera</a></li>
+                    <li><a href="developer.html">JJ Botabara</a></li>
+                    <li><a href="developer.html">Kyle Lim</a></li>
+                    <li><a href="developer.html">Zidane Yu</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="footer-social-links">
+                    <a href="https://www.facebook.com/mapuagamingsociety/" target="_blank"><i class='bx bxl-facebook-circle' style='color:#54cedc'></i></a>
+                    <a href="https://www.instagram.com/mapua.gs/" target="_blank"><i class='bx bxl-instagram' style='color:#54cedc' ></i></a>
+                    <a href="https://twitter.com/mapuags?lang=en" target="_blank"><i class='bx bxl-twitter' style='color:#00bcd4'  ></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

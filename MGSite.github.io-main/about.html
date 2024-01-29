@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mapua Gaming Society</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar - Lim -->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="Logo.jpg" alt="Mapua Gaming Society Logo"> Mapua Gaming Society</a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="officers.html">Officers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="gallery_2.html">Gallery</a></li>
+            <li><a href="developer.html">Developers</a></li>
+        </ul>
+    </nav>
+
+    <!-- This Script allows the Navigation Bar to collapse into a drop-down menu when the webpage is scaled down - Lim -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            $(".toggle").on("click", function(){
+                if($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                } else{
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+            });
+        });
+    </script>
+
+
+
+<section id="aboutus-id" class="section-1">
+    <center><h2>About Us</h2>
+        <p>Mapúa Gaming Society (MGS), is a thriving gaming organization at Mapua University. 
+        It promotes the growing potential and value of esports and gaming while emphasizing academic balance. 
+        MGS is a platform that connects students to collaborate, establish camaraderie, and encourage discipline, 
+        skills development, and self-regulated learning. <br><br>
+
+        MGS is a platform for students to connect, collaborate, and celebrate their love for gaming, that builds an 
+        environment to establish discipline, camaraderie, self-regulated learning, and skills development among the students 
+        of Mapúa University. <br><br>
+        
+        We give opportunities to gamers in:<br><br>
+        - Esports Tournaments: Competing & Organizing<br>
+        - Community Events: Game Nights & Conventions<br>
+        - Content Creation: Streaming, & Shoutcasting<br>
+        - And So Much More!</p> <br>
+        <h2>MGS competes in:</h2>
+        <div class="logo-row-1">
+            
+            <div class="row">
+                <img src="logos/League.png">
+            </div>
+            <div class="row">
+                <img src="logos/TFT.png">
+            </div>
+            <div class="row">
+                <img src="logos/League-WR.png">
+            </div>
+            <div class="row">
+                <img src="logos/MLBB.png">
+            </div>
+        </div>
+
+        <div class="logo-row-2">    
+            <div class="row2">
+                <img src="logos/TEKKEN8.png">
+            </div>
+            <div class="row2">
+                <img src="logos/COD_Mobile.png">
+            </div>
+            <div class="row2">
+                <img src="logos/Valorant-R.png">
+            </div>
+
+        
+
+        </div>
+    
+        <h3>Our Mission</h3>
+        <p>Mapúa Gaming Society will be an organization committed to providing students
+            exposure to different industries related to gaming, competitive esports, and leadership,
+            giving them their avenue of growth and realizing their true potential. Mapúa Gaming
+            Society seeks to promote a healthy balance in academics and excel towards the
+            advancements in the gaming industry while empowering the principles of a good role
+            model to society and future generations.</p>
+        <h3>Our Vision</h3>
+        <p>Mapúa Gaming Society aims to be the leading gaming organization in Mapúa University,
+            producing competitive, critical thinkers and proficient and effective communicators in the
+            local and international gaming industry, community, and esports.</p>
+    </center>
+</section>
+
+<button class="back-to-top" onclick="scrollToTop()">Back to Top</button>
+
+    <script>
+        function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+        }
+    </script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-- Footer - Lim -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Organization</h4>
+                    <ul class="footer-list">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="officers.html">Officers</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="Events.html">Events</a></li>
+                        <li><a href="gallery_2.html">Gallery</a></li>
+                        <li><a href="developer.html">Developers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Officers</h4>
+                    <ul class="footer-list">
+                        <li><a href="officers.html">Ray Giron</a></li>
+                        <li><a href="officers.html">Ozel Pablo</a></li>
+                        <li><a href="officers.html">Aaron Valentona</a></li>
+                        <li><a href="officers.html">Vince Arellano</a></li>
+                        <li><a href="officers.html">Laurenz Maliwat</a></li>
+                        <li><a href="officers.html" style="color: white;">and More!!</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Developers</h4>
+                    <ul class="footer-list">
+                        <li><a href="developer.html">Alexis Manuel</a></li>
+                        <li><a href="developer.html">Andre Manguera</a></li>
+                        <li><a href="developer.html">JJ Botabara</a></li>
+                        <li><a href="developer.html">Kyle Lim</a></li>
+                        <li><a href="developer.html">Zidane Yu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social-links">
+                        <a href="https://www.facebook.com/mapuagamingsociety/" target="_blank"><i class='bx bxl-facebook-circle' style='color:#54cedc'></i></a>
+                        <a href="https://www.instagram.com/mapua.gs/" target="_blank"><i class='bx bxl-instagram' style='color:#54cedc' ></i></a>
+                        <a href="https://twitter.com/mapuags?lang=en" target="_blank"><i class='bx bxl-twitter' style='color:#00bcd4'  ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
